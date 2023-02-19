@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.5;
+  background-color: #FFA7B6;
+  color: #F85797;
+}
+
+p {
+  color: #F85797;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #F85797;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F85797;
+  margin-bottom: 10px;
+}
+
+li {
+  list-style-type: none;
+  padding: 5px 10px;
+  background-color: #eee;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
