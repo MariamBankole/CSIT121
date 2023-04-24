@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Favorite Recipe.</title>
+<link rel="stylesheet" type="text/css" href="recipe.css" >
+<style>
+  img {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+  }
+</style>
+</head>
+<body>
+<h1>Coconut Joys</h1>
+<h2>You'll love these no-bake,no-fuss sweets</h2>
+<div class="container">
+  <div class="left">
+    <h2>Ingredients</h2>
+    <ul>
+      <li>Butter</li>
+      <li>Shredded Coconut</li>
+      <li>Pecan</li>
+      <li>Sugar</li>
+      <li>Chocolate</li>
+    </ul>
+  </div>
+  <div class="right">
+    <h2>Directions</h2>
+    <ol>
+      <li>In a large bowl, combine the coconut, confectioners' sugar and butter. Form into 1-in. balls</li>
+      <li>Using the end of a wooden spoon handle, make an indentation in the center of each ball. Fill with chocolate. Sprinkle with pecans. Place on a waxed paper-lined baking sheet. Chill until chocolate is firm. Store in the refrigerator.</li>
+    </ol>
+  </div>
+</div>
+<p>
+	Coconut joys are my favorite recipe because they're a delicious, sweet and crunchy treat that is perfect for satisfying a sweet tooth. The rich and decadent flavor is hard to resist.
+</p>
+<p>
+	Additionally, they are quick and easy to make.
+</p>
+<a href="https://www.allrecipes.com/">This website offers free recipes</a>
+<div class="container">
+  <div class="content-container">
+    <!-- your content here -->
+  </div>
+  <div class="image-container"></div>
+</div>
+<img src="https://live.staticflickr.com/8524/8607438129_b14b40e49a_b.jpg" alt="Image description" width="300">
+<table>
+  <caption class="caption">Nutrition Facts</caption>
+  <thead>
+    <tr>
+      <th>Nutrient</th>
+      <th>Amount per serving</th>
+      <th>% Daily Value*</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="3" class="serving-size">Serving Size: 1 serving (100g)</td>
+    </tr>
+    <tr>
+      <td>Calories</td>
+      <td>120</td>
+      <td>6%</td>
+    </tr>
+    <tr>
+      <td>Total Fat</td>
+      <td>7g</td>
+      <td>11%</td>
+    </tr>
+    <tr>
+      <td>Saturated Fat</td>
+      <td>5g</td>
+      <td>25%</td>
+    </tr>
+    <tr>
+      <td>Cholesterol</td>
+      <td>0mg</td>
+      <td>0%</td>
+    </tr>
+    <tr>
+      <td>Sodium</td>
+      <td>15mg</td>
+      <td>1%</td>
+    </tr>
+    <tr>
+      <td>Total Carbohydrate</td>
+      <td>14g</td>
+      <td>5%</td>
+    </tr>
+    <tr>
+      <td>Dietary Fiber</td>
+      <td>1g</td>
+      <td>4%</td>
+    </tr>
+    <tr>
+      <td>Total Sugars</td>
+      <td>11g</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>Protein</td>
+      <td>1g</td>
+      <td>2%</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3" class="footnote">*Percent Daily Values are based on a 2,000 calorie diet.</td>
+    </tr>
+</table>
+<section class="recipe-container">
+  <!-- recipe content here -->
+</section>
+
+<section class="contact-container">
+  <h2>Contact Us</h2>
+  <p>We would love to hear from you! Use the form below to send us your feedback or ask any questions.</p>
+
+  <form action="submit-form.php" method="post">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="cuisine">Favorite cuisines:</label>
+      <select id="cuisine" name="cuisine[]" multiple>
+        <option value="Jamaican">Jamaican</option>
+        <option value="Mexican">Mexican</option>
+        <option value="German">German</option>
+        <option value="Chinese">Chinese</option>
+        <option value="Indian">Indian</option>
+        <option value="Italian">Italian</option>
+        <option value="Thai">Thai</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Subscribe to mailing list:</label>
+      <div class="radio-buttons">
+        <input type="radio" id="yes" name="mailing-list" value="yes" checked>
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="mailing-list" value="no">
+        <label for="no">No</label>
+      </div>
+    </div>
+
+    <div class="form-group buttons">
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </div>
+  </form>
+</section>
