@@ -1,0 +1,521 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #FF94B6;
+  }
+
+header h1 {
+  font-size: 56px;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 1px 1px 2px #333;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: background-color 0.2s ease;
+  text-shadow: 1px 1px 2px #333;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #FF94B6;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://image.slidesdocs.com/responsive-images/docs/botanical-line-art-aesthetics-page-border-background-word-template_88acc8dabb__1131_1600.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px #000;
+}
+  
+.hero p {
+  font-size: 18px;
+  color: #666666;
+  font-weight: bold;
+}
+
+  
+.about {
+  margin-bottom: 40px;
+}
+
+.about h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px #000;
+}
+  
+.about p {
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.services {
+  margin-bottom: 40px;
+}
+
+.services h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.service {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.service h3 {
+  font-size: 20px;
+  color: #2b2b2b;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.image-container {
+  border: 1px solid #ccc; 
+  padding: 10px; 
+  width: 100%;
+  box-sizing: border-box;
+  box-sizing: border-box; 
+  background-image: url('https://media.istockphoto.com/id/641768482/video/stage-lights.jpg?s=640x640&k=20&c=N-JztOz8n1JI08Hm8JAf6YNc6z2tt7QPvakwgXweF40=');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-container img {
+  width: 16.666%;
+  height: auto;
+  margin: 0 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.image-row img {
+  width: 30%;
+  height: auto;
+  margin: 0 10px 20px; 
+  padding: 0;
+}
+
+div.Gallery h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.Gallery p {
+  color: #333; 
+  font-size: 24px;
+  font-weight: bold; 
+  text-align: center;
+  margin-top: 20px;
+}
+
+.videos-container {
+  border: 1px solid #ccc;
+  padding: 10px; 
+  width: 100%;
+  box-sizing: border-box;
+  box-sizing: border-box; 
+  background-image: url('https://media.istockphoto.com/id/641768482/video/stage-lights.jpg?s=640x640&k=20&c=N-JztOz8n1JI08Hm8JAf6YNc6z2tt7QPvakwgXweF40=');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.videos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.videos-container video {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  max-width: 100%;
+}
+
+.intro-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.intro-description {
+  color: #333;
+  font-size: 24px; 
+  font-weight: bold; 
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+.contact-container{
+  width: 100%;
+}
+
+.contact {
+  background-color: #f2f2f2;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px #000;}
+ 
+.contact p {
+  font-size: 1.2rem; 
+  font-weight: bold; 
+  text-align: center; 
+  margin-top: 50px;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.contact-item {
+  flex: 1 1 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.contact-item img {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.contact-item p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-size: 1.1rem; 
+  font-weight: bold;
+}
+
+.contact-item a {
+  color: #333;
+  font-weight: bold;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+.contact-info {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.contact-item {
+  display: table-cell;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 25%;
+  box-sizing: border-box; 
+}
+
+.contact-item img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.contact-item a {
+  color: #333;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.contact-item a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+footer {
+  font-size: 38px;
+  font-weight: bold;
+  background-color: #FFF;
+  color: #FF94B6;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  text-shadow: 1px 1px 2px #000;
+}
+
+@media only screen and (max-width: 768px) {
+body {
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://image.slidesdocs.com/responsive-images/docs/botanical-line-art-aesthetics-page-border-background-word-template_88acc8dabb__1131_1600.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px #000;
+}
+  
+.hero p {
+  font-size: 18px;
+  color: #666666;
+  font-weight: bold;
+}
+
+  
+.about {
+  margin-bottom: 40px;
+}
+
+.about h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px #000;
+}
+  
+.about p {
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.services {
+  margin-bottom: 40px;
+}
+
+.services h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.service {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.service h3 {
+  font-size: 20px;
+  color: #2b2b2b;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.image-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  box-sizing: border-box; 
+  background-image: url('https://media.istockphoto.com/id/641768482/video/stage-lights.jpg?s=640x640&k=20&c=N-JztOz8n1JI08Hm8JAf6YNc6z2tt7QPvakwgXweF40=');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-container img {
+  width: 16.666%;
+  height: auto;
+  margin: 0 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+}
